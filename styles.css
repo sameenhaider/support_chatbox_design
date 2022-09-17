@@ -1,0 +1,12 @@
+.card_box{
+  background-color: rgb(255 255 255);
+
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.upper_card {
+  background-color: rgb(49, 162, 244);
+}
+.read_button {
+  background-color: rgb(49, 162, 244);
+}
+
