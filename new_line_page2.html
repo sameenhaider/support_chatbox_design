@@ -5,109 +5,119 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/opensanshebrew.css">
 </head>
 <body>
 <!-- Snippet -->
 <section class="flex flex-col justify-center antialiased bg-gray-50 text-gray-600 min-h-screen p-4">
     <div class="h-full">
         <!-- Card -->
-        <div class="relative max-w-[391px] h-[812px] mx-auto shadow-lg rounded-lg">
+        <div class="relative max-w-[391px] h-[815px] mx-auto  shadow-lg rounded-lg">
             <!-- Card header -->
-            <header class="upper_card  h-[107px] rounded-t-lg pt-6 pb-4 px-5 border-b border-gray-200">
-                    <div class="flex justify-between items-center ml-3 mt-1 mb-1">
-                      <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 text-gray-200">
-                              <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z" clip-rule="evenodd" />
-                            </svg>
-                        </div>
-                      <div class="flex -ml-12 items-center grid grid-rows-2 grid-flow-col">                        
-                        <a class="inline-flex items-start mr-3 row-span-2" href="#0">
+            <header class="upper_card h-[375px] pt-6 pb-4 px-5 border-b border-gray-200 rounded-t-lg">
+                  <div class="flex justify-between items-center">
+                    <div class="flex items-center ml-6">
+                    <img  src="https://assets.stickpng.com/images/6303a56bab1b900654aad3c4.png" width="80" height="80" alt="company_logo" />
+                    </div>
+                    <div class="flex items-center text-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-gray-300">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 ml-2 text-gray-300 font-bold">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex items-center mb-3 mt-2 ml-6">
+                    <h1 class="head_name flex inline-flex text-[28px] leading-9 text-white">Hi there👋</h>
+                </div>
+                <div class="flex justify-between items-center mb-1 mt-10 ml-6">
+                    <h1 class="head_name start_convo leading-9 text-white text-[16px]">Start a conversation</h1>
+                </div>
+                <div class="flex h-[83px] justify-between items-center mb-4 rounded-lg bg-white">
+                    <!-- Image + name -->
+                    <div class="flex items-center ml-6 mt-2 mb-4">
+                        <a class="inline-flex items-start mr-3" href="#0">
                             <img class="rounded-full" src="https://res.cloudinary.com/dc6deairt/image/upload/v1638102932/user-48-01_nugblk.jpg" width="50" height="50" alt="Lauren Marsano" />
                         </a>
-                        <a class="inline-flex text-gray-800 hover:text-gray-900 " href="#0">
-                            <h2 class="text-lg leading-snug col-span-2 row-span-1 text-white">Darlene Steward</h2>
-                        </a>
-                        <p class="text-sm font-thin row-span-1 col-span-1 text-white">Online</p> 
+                        <div class="pr-1">
+                            <a class="inline-flex text-gray-800 hover:text-gray-900" href="#0">
+                                <h2 class="head_name text-sm leading-snug">Darlene Steward</h2>
+                            </a>
+                            <a class="block text-xs font-medium hover:text-indigo-500" href="#0">We are online, do you have questions?</a>
                         </div>
-                      <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-gray-200 w-7 h-7">
-                              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
-                            </svg>
-                        </div>
-                    </div>
-                </header>
-    <div class="card_box w-5/6 h-[612px] max-h-[612px] my-auto mx-auto rounded-lg -mt-6">
-                    <!-- Bodyyyyyyyyyyyyyyyy -->
-        <body>
-        <div class="flex flex-col flex-grow h-0 p-4">
-            <div class="flex w-full items-center mt-2 space-x-3 max-w-xs">
-                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"><img class="rounded-full" src="https://res.cloudinary.com/dc6deairt/image/upload/v1638102932/user-48-01_nugblk.jpg" width="48" height="48" alt="Lauren Marsano"/></div>
-                <div>
-                    <span class="text-sm text-gray-400 leading-none">Darlene Steward</span>
-                    <div class="bg-gray-100 p-3 rounded-r-lg rounded-bl-lg">
-                        <p class="text-sm">Hey, what is your name? 😊</p>
                     </div>
                 </div>
-            </div>
-            <div class="flex w-full mt-2 items-center space-x-3 max-w-xs ml-auto justify-end">
-                <div class="w-64">
-                    <h1 class="flex text-xs leading-snug text-gray-400 absolute right-14 inline-flex items-center text-sm font-medium text-white">Me</h1><br>
-                    <div class="border-2 p-3 rounded-lg">
-                        <span class="text-sm">Alex</span>
-                        <span class="flex text-sm leading-snug text-gray-400 absolute right-16 inline-flex items-center text-sm font-medium text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-green-500">
-                              <path fill-rule="evenodd" d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z" clip-rule="evenodd" />
+                <!-- send us a message -->
+                <div class="flex justify-center items-center mb-3 rounded-lg border">
+                    <div class="flex items-center ml-4 mt-3 mb-3 text-white hover:text-Black">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3">
+                          <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
                         </svg>
-                    </span>
+                        <a class="text-sm font-medium whitespace-nowrap ml-2 " href="#0">Send us a message</a>
                     </div>
                 </div>
-            </div>
-            <div class="flex w-full items-center mt-2 space-x-3 max-w-xs">
-                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"><img class="rounded-full" src="https://res.cloudinary.com/dc6deairt/image/upload/v1638102932/user-48-01_nugblk.jpg" width="48" height="48" alt="Lauren Marsano"/></div>
-                <div>
-                    <span class="text-xs text-gray-400 leading-none">Darlene Steward</span>
-                    <div class="bg-gray-100 p-3 rounded-r-lg rounded-bl-lg">
-                        <p class="text-sm">Nice to meet you! 👋 Please share youremail address for us.</p>
+                <!-- see your convo -->
+                    <div class="flex justify-center items-center rounded-lg">
+                    <div class="flex items-center ml-4 text-white hover:text-Black">
+                        <a class="leading-5 font-small whitespace-nowrap ml-2 text-[14px]" href="#0">See your conversation history</a>
                     </div>
                 </div>
-            </div>
-            <div class="flex  mt-2 items-center space-x-3 max-w-xs ml-auto justify-end">
+            </header>
+        <body>
+            <div class="h-[440px]">
+            <div class="pt-6 pb-4 px-5 ">
+              <div class="w-full text-left py-4 bg-white rounded-lg shadow-md h-[113px]">
                 <div>
-                 <h1 class="flex text-xs leading-snug text-gray-400 absolute right-14 inline-flex items-center text-sm font-medium text-white">Me</h1><br>
-                    <div class="border-2 w-64 text-blue p-1 rounded-lg ">
-                          <form>
-                            <label for="chat" class="white sr-only">Your Email</label>
-                            <div class="flex items-center">
-                                <textarea id="chat" rows="1" class="block p-2.5 w-full text-sm text-blue rounded-lg dark:placeholder-gray-400 " placeholder="Your email address"></textarea>
-                                    <button type="submit" class="inline-flex justify-center p-2 text-blue-600 rounded-full cursor-pointer dark:text-gray-400 dark:hover:bg-gray-600">
-                                    <svg class="w-6 h-6 rotate-90" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>
-                                </button>
+                        <p class="text-sm text-black mb-2 ml-6">Meet with Sales</p></div>
+                     <div class="flex justify-center mt-3 ml-2">
+                        <button class="w-11/12 justify-center read_button bottom bottom-12 h-10 inline-flex items-center text-sm font-medium text-white hover:bg-indigo-600 text-center rounded-lg px-8 py-2 shadow-lg focus:outline-none focus-visible:ring-2">
+                            <svg class="w-3 h-3 fill-current text-indigo-300 flex-shrink-0 mr-2" viewBox="0 0 12 12">
+                                <path d="M11.866.146a.5.5 0 0 0-.437-.139c-.26.044-6.393 1.1-8.2 2.913a4.145 4.145 0 0 0-.617 5.062L.305 10.293a1 1 0 1 0 1.414 1.414L7.426 6l-2 3.923c.242.048.487.074.733.077a4.122 4.122 0 0 0 2.933-1.215c1.81-1.809 2.87-7.94 2.913-8.2a.5.5 0 0 0-.139-.439Z" />
+                            </svg>
+                            <span>Find a time</span>
+                        </button>
+                </div>
+              </div>
+              </div>
+        <div class="pb-4 px-5 ">
+<div class="w-full text-left py-4 pl-6 bg-white rounded-lg shadow-md h-[225px]">
+    <div class="flex justify-center w-full pt-8">
+            <label for="table-search" class="sr-only">Search</label>
+                        <div class=" flex relative mt-1 w-full">
+                            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-300" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
                             </div>
-                        </form>
+                            <input type="text" id="table-search" class="w-11/12 border text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block pl-10 p-2 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search articles...">
                     </div>
                 </div>
-            </div>
-            </div>
-            </body>
-            </div>
-            <!-- Fooooterrrrr -->
-            <footer>
-            <div class="relative h-32">
-  <div class="absolute inset-x-0 bottom-4 bg-white p-4"><form>
-    <label for="chat" class="sr-only">Your message</label>
-    <div class="flex items-center py-2 px-3 rounded-lg">
-
-        <button type="button" class="p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
-</svg>
-        </button>
-        <textarea id="chat" rows="1" class="block mx-4 p-2.5 w-full text-sm bg-white rounded-lg  focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write a message.."></textarea>
-                <button type="button" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-  <path fill-rule="evenodd" d="M18.97 3.659a2.25 2.25 0 00-3.182 0l-10.94 10.94a3.75 3.75 0 105.304 5.303l7.693-7.693a.75.75 0 011.06 1.06l-7.693 7.693a5.25 5.25 0 11-7.424-7.424l10.939-10.94a3.75 3.75 0 115.303 5.304L9.097 18.835l-.008.008-.007.007-.002.002-.003.002A2.25 2.25 0 015.91 15.66l7.81-7.81a.75.75 0 011.061 1.06l-7.81 7.81a.75.75 0 001.054 1.068L18.97 6.84a2.25 2.25 0 000-3.182z" clip-rule="evenodd" />
-</svg>
-        </button>
-            <button type="submit" class="inline-flex justify-center p-2 text-white bg-blue-500 rounded-full cursor-pointer hover:bg-blue-100 dark:text-blue-500 dark:hover:bg-gray-600">
-            <svg class="w-5 h-5 rotate-90 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>
-        </button>
-    </div>
-</form></footer></div>
-</div>
+                    <p class="text-xs font-light text-black mb-1 mt-2 text-gray-400">Most common questions</p>
+                <button class="flex w-11/12 inline-flex mb-2">
+                                    <div class="flex w-full justify-start text-[14px]">Test different message variations</div>
+                                    <div class="flex w-1/6 justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-[18px]">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg></div>
+                </button>
+                <br>
+                <button class="flex w-11/12 inline-flex mb-2">
+                                    <div class="flex w-full justify-start text-[14px]">Design your product tour</div>
+                                    <div class="flex w-1/6 justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-[18px]">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg></div>
+                </button>
+                <br>
+                <button class="flex w-11/12 inline-flex mb-2">
+                                    <div class="flex w-full justify-start text-[14px]">Reuse bot content</div>
+                                    <div class="flex w-1/6 justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-[18px]">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg></div>
+                </button>
+              </div>
+              </div>
+          </div>
+</body>
