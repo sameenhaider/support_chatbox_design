@@ -13,12 +13,12 @@
         <!-- Card -->
         <div class="relative max-w-[391px] h-[727px] mx-auto shadow-lg rounded-lg">
             <!-- Card header -->
-            <header class="upper_card rounded-lg pt-6 pb-4 px-5 border-b border-gray-200">
+            <header class="upper_card rounded-t-lg h-[86px] pt-6 pb-4 px-5 border-b border-gray-200">
                 <!-- <div class="flex items-center ml-3 mt-1 mb-1"> -->
                     <div class="flex flex-row items-center ml-3 mt-1 mb-1">
-                      <div class="basis-1/4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-10 h-10">
-                              <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
+                      <div class="basis-1/4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-gray-200 w-10 h-10">
+                          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z" clip-rule="evenodd" />
+                        </svg>
                         </div>
                       <div class="flex basis-1/2 justify-center">                        
                         <a class="inline-flex text-gray-800 hover:text-gray-900 " href="#0">
@@ -33,30 +33,35 @@
                         </div>
                     </div>
                 </header>
-            <div class="w-80 h-[578px] my-auto mx-auto bg-white rounded-lg shadow-2xl mt-5">
-                <!-- Chat list -->
-                    <!-- User -->
+            <div class="card_box w-10/12 h-[578px] my-auto mx-auto rounded-lg shadow mt-5">
                         <div class="grid grid-cols-6 ">
                             <div class="col-start-2 col-span-4 mt-8">
-                                <h4 class="text-sm text-gray-900">We're currently offline, but we of course still want to talk to you!</h4>
+                                <h4 class="text-[14px] text-gray-900 font-inter ">We're currently offline, but we of course still want to talk to you!</h4>
                                 <br>
-                                <h4 class="text-sm  text-gray-900">Please write your message below, and we'll get back to you 👋</h4>
+                                <h4 class="text-[14px] text-gray-900">Please write your message below, and we'll get back to you 👋</h4>
                             </div>
-                                                        </div>
-                            <div class="ml-5 mt-3">
-                                <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First name</label>
-                                <input type="text" id="name" class="mb-2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1-4 p-2.5 " placeholder="Name" required>
-                                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
-                                <input type="text" id="email" class="mb-2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-60 p-2.5 " placeholder="Email" required>
-                            <div class="w-60 flex flex-col">
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
-                            <textarea tabindex="0" aria-label="leave a message" role="textbox" type="name" placeholder="Leave a message" class="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none border border rounded-lg border-gray-200 resize-none"></textarea>
                         </div>
-                                    <div class="flex justify-center">
-                        <button class="read_button absolute bottom-12 h-12 inline-flex items-center text-sm font-medium text-white hover:bg-indigo-600 text-center rounded-lg px-8 py-2 shadow-lg focus:outline-none focus-visible:ring-2">
-                <svg class="w-3 h-3 fill-current text-indigo-300 flex-shrink-0 mr-2" viewBox="0 0 12 12">
-                    <path d="M11.866.146a.5.5 0 0 0-.437-.139c-.26.044-6.393 1.1-8.2 2.913a4.145 4.145 0 0 0-.617 5.062L.305 10.293a1 1 0 1 0 1.414 1.414L7.426 6l-2 3.923c.242.048.487.074.733.077a4.122 4.122 0 0 0 2.933-1.215c1.81-1.809 2.87-7.94 2.913-8.2a.5.5 0 0 0-.139-.439Z" />
-                </svg>
-                <span>Send us a message</span>
-            </button>
-            </div>
+                            <div class="ml-5 mt-3">
+                                <label for="first_name" class="block text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>
+                                <input type="text" id="name" class="flex mb-2 w-11/12 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 " placeholder="Enter your name" required>
+                                <label for="email" class=" block text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
+                                <input type="text" id="email" class="w-11/12 mb-2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 " placeholder="Enter your e-mail" required>
+                            <div class="w-full flex flex-col">
+                            <label class="block text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
+                            <textarea tabindex="0" aria-label="leave a message" role="textbox" type="name" placeholder="Leave a message" class="w-11/12 h-[112px] text-base leading-none text-gray-900 p-3 focus:oultine-none border border rounded-lg border-gray-200 resize-none"></textarea>
+                        </div>
+                <div class="flex w-full mt-6">
+                    <button class="read_button w-11/12 flex justify-center inline-flex items-center text-sm font-medium text-white hover:bg-indigo-600 text-center rounded-lg py-2 shadow-lg focus:outline-none focus-visible:ring-2">
+                        <svg class="w-4 h-4 rotate-90 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>
+                        <span class="px-3">Start a conversation</span>
+                    </button></div>
+                            <!-- <div class="flex justify-center">
+                                <button class="read_button absolute bottom-16 inline-flex items-center text-sm font-medium text-white hover:bg-indigo-600 text-center rounded-lg px-12 py-3 shadow-lg focus:outline-none focus-visible:ring-2">
+                        <svg class="w-3 h-3 fill-current text-indigo-300 flex-shrink-0 mr-2" viewBox="0 0 12 12">
+                            <path d="M11.866.146a.5.5 0 0 0-.437-.139c-.26.044-6.393 1.1-8.2 2.913a4.145 4.145 0 0 0-.617 5.062L.305 10.293a1 1 0 1 0 1.414 1.414L7.426 6l-2 3.923c.242.048.487.074.733.077a4.122 4.122 0 0 0 2.933-1.215c1.81-1.809 2.87-7.94 2.913-8.2a.5.5 0 0 0-.139-.439Z" />
+                        </svg>
+                        <span>Send us a message</span>
+                    </button>
+                    </div> -->
+        </div>
+    </div>
