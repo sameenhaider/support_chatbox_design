@@ -1,12 +1,59 @@
 .card_box{
-  background-color: rgb(255 255 255);
-
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  /* Background/White */
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+/* Shadow 2 */
+box-shadow: 0px 15px 25px 10px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
 }
 .upper_card {
-  background-color: rgb(49, 162, 244);
+  background: linear-gradient(102.27deg, #31A2F4 25.84%, #1E8FCE 84.8%);
+}
+.upper_text {
+    animation: header_load 300ms ease-in 300ms;
+    animation-fill-mode:  forwards;
+    transform: scale(0);
 }
 .read_button {
   background-color: rgb(49, 162, 244);
 }
-
+.name_field{
+  color: rgb(75 85 99);
+}
+.head_name{
+      font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 600;
+  }
+.user_chat{
+background: #31A2F4;
+border-radius: 8px;
+}
+.topics_box{
+      animation: box_load 300ms ease-in 700ms;
+    animation-fill-mode:  forwards;
+    transform: scale(0);
+}
+@keyframes header_load{
+  0%{
+    transform: scale(0);
+    transform: translateY(+20px);
+    opacity: 0;
+  }
+  100%{
+        transform: scale(1);
+        transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes box_load{
+  0%{
+    transform: scale(0);
+    transform: translateZ(+20px);
+    opacity: 0;
+  }
+  100%{
+        transform: scale(1);
+        transform: translateZ(0px);
+    opacity: 1;
+  }
+}
